@@ -1,0 +1,36 @@
+{
+  "name": "vite-ts-react-scss",
+  "version": "1.0.0",
+  "description": "",
+  "main": "dist/main.js",
+  "types": "dist/src/main.d.ts",
+  "files": [
+    "dist"
+  ],
+  "sideEffects": [
+    "*.css",
+    "**/*.css"
+  ],
+  "scripts": {
+    "build": "tsc --p ./tsconfig.json && vite build"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@laynezh/vite-plugin-lib-assets": "^0.5.21",
+    "@types/react": "^18.3.1",
+    "@vitejs/plugin-react": "^4.2.1",
+    "glob": "^10.3.12",
+    "sass": "^1.76.0",
+    "typescript": "^5.4.5",
+    "vite": "^5.2.11",
+    "vite-plugin-dts": "^3.9.1",
+    "vite-plugin-lib-inject-css": "^2.0.1",
+    "vite-plugin-static-copy": "^1.0.4",
+    "vite-tsconfig-paths": "^4.3.2"
+  },
+  "peerDependencies": {
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1"
+  }
+}

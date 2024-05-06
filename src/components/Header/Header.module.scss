@@ -1,0 +1,13 @@
+@use "$shared/mixins.scss";
+
+.header {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+
+  @include mixins.roboto-regular;
+}
+
+.close {
+  color: gray;
+}

@@ -1,0 +1,9 @@
+@use "$shared/mixins.scss";
+
+.content {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+
+  @include mixins.roboto-light;
+}
